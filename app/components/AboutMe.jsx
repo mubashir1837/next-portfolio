@@ -25,7 +25,7 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="mt-16 sm:mt-0 sm:ml-12"> 
-          <Image src="/images/img.png" alt="Profile Image" width={200} height={200} className="rounded-full border-4 border-white" />
+          <Image src="/images/pro.jpg" alt="Profile Image" width={250} height={250} className="rounded-full border-4 border-white" />
         </div>
       </section>
     </>
