@@ -9,11 +9,16 @@ export const metadata = {
   keywords: [
     "Mubashir",
     "Mubashir Ali Portfolio",
+    "Planner",
+    "Ahrefs",
+    "SEMrush",
     "mubashir-ali.vercel.app",
     "mubashirAlibalti",
     "Portfolio",
     "Mubashir Portfolio ",
     "Mubashir Ali website",
+    "Awesome Portfolio",
+    "website",
   ]
 };
 

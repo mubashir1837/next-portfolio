@@ -1,4 +1,3 @@
-// components/SEO.jsx
 import Head from 'next/head';
 
 const SEO = ({ title, description, keywords }) => {

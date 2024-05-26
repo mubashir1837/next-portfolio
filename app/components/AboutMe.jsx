@@ -7,9 +7,9 @@ const AboutMe = () => {
   return (
     <>
       <SEO
-        title="About Me"
+        title="About Mubashir Ali"
         description="Learn more about me, my background, and my interests."
-        keywords="about me, background, biography, beautiful about me"
+        keywords="about me, background, biography, beautiful about me, portfolio, awesome_portfolio, portfolio vercel"
       />
       <section className="about-me flex flex-col sm:flex-row items-center justify-center text-center sm:text-left py-24 mt-20"> 
         <div className="text-white max-w-lg">

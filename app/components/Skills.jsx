@@ -6,9 +6,9 @@ const Skills = () => {
   return (
     <>
       <SEO
-        title="Skills"
+        title="Mubashir Ali portfolio"
         description="A list of my skills and technologies I'm proficient in."
-        keywords="skills, technologies, proficiency"
+        keywords="skills, technologies, proficiency Planner, Ahrefs, SEMrush,"
       />
       <section className="skills flex flex-col items-center justify-center text-center py-24 mt-20">
         <div className="text-white max-w-lg">

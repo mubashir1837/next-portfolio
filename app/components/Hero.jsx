@@ -9,7 +9,7 @@ const Hero = () => {
       <SEO
         title="Home"
         description="Welcome to my personal website. Learn more about me and my work."
-        keywords="home, personal website, web developer"
+        keywords="home, personal website, web developer, awesome portfolio, Planner, SEMrush"
       />
       <section className="hero py-12">
         <div className="text-center mt-8">
