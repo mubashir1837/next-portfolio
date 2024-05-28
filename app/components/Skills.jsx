@@ -10,7 +10,7 @@ const Skills = () => {
         description="A list of my skills and technologies I'm proficient in."
         keywords="skills, technologies, proficiency Planner, Ahrefs, SEMrush,"
       />
-      <section className="min-h-screen px-4 py-24">
+      <section className="min-h-screen px-4 py-24 mt-[100%]">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#1fff] to-[#fff]">
           Skills
         </h1>

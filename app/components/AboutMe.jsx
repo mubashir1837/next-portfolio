@@ -11,7 +11,7 @@ const AboutMe = () => {
         description="Learn more about me, my background, and my interests."
         keywords="about me, background, biography, beautiful about me, portfolio, awesome_portfolio, portfolio vercel"
       />
-      <section className="about-me flex flex-col sm:flex-row items-center justify-center text-center sm:text-left py-24 mt-20"> 
+      <section className="about-me flex flex-col sm:flex-row items-center justify-center text-center sm:text-left py-24 mt-[100%]"> 
         <div className="text-white max-w-lg">
           <h2 className="mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1ff] to-[#fff]">About Me</span>

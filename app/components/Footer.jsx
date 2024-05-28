@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-12 lg:mt-0">
-          <img src="/images/pro.jpg" alt="GitHub Profile Photo" className="w-200 h-auto rounded-full mr-6 lg:mx-0" />
+          <img src="/images/pro.jpg" alt="GitHub Profile Photo" className="w-200 h-200 rounded-full mr-6 sm:mx-sm" />
         </div>
       </div>
     </section>

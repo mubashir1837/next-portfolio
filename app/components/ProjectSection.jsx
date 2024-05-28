@@ -10,7 +10,7 @@ const ProjectSection = () => {
         description="Showcasing my projects and work."
         keywords="projects, portfolio, work"
       />
-      <section className="projects py-24 sm:py-16 lg:py-24 text-center">
+      <section className="projects py-24 sm:py-16 lg:py-24 text-center mt-[100%]">
         <div className="container mx-auto">
           <h2 className="mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fff] to-[#1ff]">Projects</span>
