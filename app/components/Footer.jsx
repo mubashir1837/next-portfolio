@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaSkype, FaTelegram } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaSkype, FaTelegram, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -19,23 +19,26 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex space-x-4 justify-center lg:justify-start size-max-0px sm:max-w-xl">
-            <a href={"mailto:mubashirali1837@gmail.com"} className="text-white text-2xl">
+            <a href="emailto:mubashirali1837@gmail.com" className="text-white text-xl">
               <FaEnvelope />
             </a>
-            <a href="https://linkedin.com/in/mubashirali3" className="text-white text-2xl">
+            <a href="https://linkedin.com/in/mubashirali3" className="text-white text-xl">
               <FaLinkedin />
             </a>
-            <a href="https://github.com/mubashir1837" className="text-white text-2xl">
+            <a href="https://github.com/mubashir1837" className="text-white text-xl">
               <FaGithub />
             </a>
-            <a href="https://instagram.com/mubashir_aliyaar_37/" className="text-white text-2xl">
+            <a href="https://instagram.com/mubashir_aliyaar_37/" className="text-white text-xl">
               <FaInstagram />
             </a>
-            <a href="https://www.facebook.com/your-facebook-profile" className="text-white text-2xl">
+            <a href="https://www.facebook.com/your-facebook-profile" className="text-white text-xl">
               <FaTelegram />
             </a>
-            <a href="https://twitter.com/your-twitter-profile" target='_blank' className="text-white text-2xl">
+            <a href="https://skype.com/your-twitter-profile" target='_blank' className="text-white text-xl">
               <FaSkype />
+            </a>
+            <a href="https://skype.com/your-twitter-profile" target='_blank' className="text-white text-xl">
+              <FaWhatsapp />
             </a>
           </div>
         </div>

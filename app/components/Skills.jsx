@@ -29,10 +29,37 @@ const Skills = () => {
           <div className="mb-4">
             <div className="flex justify-between items-center">
               <p className="text-lg text-white">JavaScript</p>
-              <span className="text-lg text-white">75%</span>
+              <span className="text-lg text-white">80%</span>
             </div>
             <div className="w-full bg-[#dfdbdb] rounded-full h-2.5">
-              <div className="bg-[#1fff] h-2.5 rounded-full" style={{ width: '75%' }}></div>
+              <div className="bg-[#1fff] h-2.5 rounded-full" style={{ width: '80%' }}></div>
+            </div>
+          </div>
+          <div className="mb-4">
+            <div className="flex justify-between items-center">
+              <p className="text-lg text-white">Tailwind CSS</p>
+              <span className="text-lg text-white">95%</span>
+            </div>
+            <div className="w-full bg-[#dfdbdb] rounded-full h-2.5">
+              <div className="bg-[#1fff] h-2.5 rounded-full" style={{ width: '95%' }}></div>
+            </div>
+          </div>
+          <div className="mb-4">
+            <div className="flex justify-between items-center">
+              <p className="text-lg text-white">Bootstrap</p>
+              <span className="text-lg text-white">95%</span>
+            </div>
+            <div className="w-full bg-[#dfdbdb] rounded-full h-2.5">
+              <div className="bg-[#1fff] h-2.5 rounded-full" style={{ width: '95%' }}></div>
+            </div>
+          </div>
+          <div className="mb-4">
+            <div className="flex justify-between items-center">
+              <p className="text-lg text-white">Nextjs</p>
+              <span className="text-lg text-white">85%</span>
+            </div>
+            <div className="w-full bg-[#dfdbdb] rounded-full h-2.5">
+              <div className="bg-[#1fff] h-2.5 rounded-full" style={{ width: '85%' }}></div>
             </div>
           </div>
           <div className="mb-4">
