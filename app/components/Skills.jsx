@@ -10,7 +10,7 @@ const Skills = () => {
         description="A list of my skills and technologies I'm proficient in."
         keywords="skills, technologies, proficiency Planner, Ahrefs, SEMrush,"
       />
-      <section className="min-h-screen px-4 py-24 bg-gradient-to-r from-[#010524] to-[#040c5c]">
+      <section className="min-h-screen px-4 py-24">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#19e345] to-[#fff]">
           Skills
         </h1>
@@ -39,7 +39,7 @@ const Skills = () => {
                     <span className="text-lg text-white">75%</span>
                   </div>
                   <div className="w-full bg-white rounded-full h-2.5">
-                    <div className="bg-green-500 h-2.5 rounded-full" style={{ width: '75%' }}></div>
+                    <div className="bg-[#28b6bb] h-2.5 rounded-full" style={{ width: '75%' }}></div>
                   </div>
                 </div>
                 <div className="mb-4">
@@ -48,7 +48,7 @@ const Skills = () => {
                     <span className="text-lg text-white">89%</span>
                   </div>
                   <div className="w-full bg-white rounded-full h-2.5">
-                    <div className="bg-green-500 h-2.5 rounded-full" style={{ width: '89%' }}></div>
+                    <div className="bg-[#28b6bb] h-2.5 rounded-full" style={{ width: '89%' }}></div>
                   </div>
                 </div>
                 <div className="mb-4">
@@ -57,7 +57,7 @@ const Skills = () => {
                     <span className="text-lg text-white">89%</span>
                   </div>
                   <div className="w-full bg-white rounded-full h-2.5">
-                    <div className="bg-green-500 h-2.5 rounded-full" style={{ width: '89%' }}></div>
+                    <div className="bg-[#28b6bb] h-2.5 rounded-full" style={{ width: '89%' }}></div>
                   </div>
                 </div>
               </div>
