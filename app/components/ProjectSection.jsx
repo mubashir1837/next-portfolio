@@ -92,7 +92,7 @@ const ProjectSection = () => {
               </a>
             </div>
 
-            <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50  text-center shadow-[#ffffff]">
+            <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50 hover:shadow-[#]  text-center shadow-[#ffffff]">
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Food ordering website</h3>
               <p className="text-[#fff] mb-4">
                 This project is about food ordering website.
