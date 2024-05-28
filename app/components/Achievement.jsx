@@ -5,7 +5,7 @@ const Achievement = () => {
   return (
     <>
       <main className="min-h-screen px-4 py-24 mt-[100%]">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#1ff] to-[#fff]">
+        <h1 className="text-4xl sm:text-5xl lg:text-5xl font-extrabold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#1ff] to-[#fff]">
           Achievements
         </h1>
         <div className="py-12">
