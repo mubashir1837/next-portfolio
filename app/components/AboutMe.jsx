@@ -24,7 +24,7 @@ const AboutMe = () => {
             written, I advance towards a future where innovation knows no bounds.
           </p>
         </div>
-        <div className="mt-16 sm:mt-0 sm:ml-12"> 
+        <div className="mt-16 sm:mt-0 sm:ml-12 "> 
           <Image src="/images/pro.jpg" alt="Profile Image" width={250} height={250} className="rounded-full border-4 border-white" />
         </div>
       </section>

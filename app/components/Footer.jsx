@@ -13,9 +13,6 @@ const Footer = () => {
           <p className="text-lg sm:text-xl lg:text-lg text-white text-center lg:text-left mb-6 lg:max-w-6xl">
             I am currently exploring exciting new opportunities and eagerly anticipate receiving thoughtful messages in my inbox. Whether you have inquiries, potential job opportunities, or simply wish to connect, rest assured, I will respond promptly and warmly!
           </p>
-          {/* <p className="text-md sm:text-lg lg:text-md text-white text-center lg:text-left mb-12 lg:max-w-5xl">
-            An enthusiastic undergraduate student, passionate about Bioinformatics, Biopython, Python, JavaScript, HTML, and CSS.
-          </p> */}
           <div className="flex items-center justify-center lg:justify-start mb-8">
             <FaMapMarkerAlt className="text-white text-2xl mr-2" />
             <span className="text-white text-lg">Islamabad, Pakistan</span>
