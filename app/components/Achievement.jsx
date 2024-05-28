@@ -4,7 +4,7 @@ import { FaHandPeace, FaSmile, FaThumbsUp, FaTrophy } from 'react-icons/fa';
 const Achievement = () => {
   return (
     <>
-      <main className="min-h-screen px-4 py-24">
+      <main className="min-h-screen px-4 py-24 mt-20">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#1ff] to-[#fff]">
           Achievements
         </h1>
@@ -15,28 +15,28 @@ const Achievement = () => {
                 <div className="text-center">
                   <FaHandPeace className="text-4xl text-[#1ff] mx-auto mb-2" />
                   <h5 className="text-4xl text-white">3</h5>
-                  <p className="text-gray-400">Total Experience</p>
+                  <p className="text-[#cac5c5]">Total Experience</p>
                 </div>
               </div>
               <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
                 <div className="text-center">
                   <FaSmile className="text-4xl text-[#1ff] mx-auto mb-2" />
                   <h5 className="text-4xl text-white">300</h5>
-                  <p className="text-gray-400">Happy Clients</p>
+                  <p className="text-[#cac5c5]">Happy Clients</p>
                 </div>
               </div>
               <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
                 <div className="text-center">
                   <FaThumbsUp className="text-4xl text-[#1ff] mx-auto mb-2" />
                   <h5 className="text-4xl text-white">100</h5>
-                  <p className="text-gray-400">Project Complete</p>
+                  <p className="text-[#cac5c5]">Project Complete</p>
                 </div>
               </div>
               <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
                 <div className="text-center">
                   <FaTrophy className="text-4xl text-[#1ff] mx-auto mb-2" />
                   <h5 className="text-4xl text-white">50</h5>
-                  <p className="text-gray-400">Award Win</p>
+                  <p className="text-[#cac5c5]">Award Win</p>
                 </div>
               </div>
             </div>

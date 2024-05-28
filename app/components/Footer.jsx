@@ -1,56 +1,50 @@
 import { FaTelegram, FaTwitter, FaEnvelope, FaSkype, FaWhatsapp, FaYoutube } from 'react-icons/fa';
 
+const githubProfilePhotoUrl = "https://avatars.githubusercontent.com/u/163585695?v=4";
+
 const Footer = () => {
   return (
-    <footer className="text-gray-800 py-8 mt-8 bg-[#1d1e50] lg:w-full">
-      <div className="container mx-auto px-4 lg:px-4 text-center">
-        <div className="my-4">
-          <h3 className="text-lg font-semibold mb-2 text-white">Let&apos;s connect</h3>
-          <p className="text-sm text-gray-400 mb-4 lg:text-center">
-            Mystery Code is a blog website where you will find great tutorials on web design and development.
-            Here each tutorial is beautifully described step by step with the required source code.
-          </p>
-          <ul className="flex justify-center space-x-4 mb-4">
-            <li>
-              <a href="mailto:mubashirali1837@gmail.com" className="hover:text-cyan-500">
-                <FaEnvelope className="text-white" />
-              </a>
-            </li>
-            <li>
-              <a href="http://Wa.me/+923275882664" className="hover:text-cyan-500">
-                <FaWhatsapp className="text-white" /> 
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/mubashiraliyaar" className="hover:text-cyan-500">
-                <FaTwitter className="text-white" /> 
-              </a>
-            </li>
-            <li>
-              <a href="https://join.skype.com/invite/tbUVmyPL6ySt" className="hover:text-cyan-500">
-                <FaSkype className="text-white" /> 
-              </a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/@BismiAllah_coder" className="hover:text-cyan-500">
-                <FaYoutube className="text-white" /> 
-              </a>
-            </li>
-            <li>
-              <a href="http://t.me/mubashir1837" className="hover:text-cyan-500">
-                <FaTelegram className="text-white" /> 
-              </a>
-            </li>
-          </ul>
-          <ul className="flex justify-center space-x-4 mb-4">
-            <li><a href="#" className="text-gray-400 hover:text-cyan-500">Home</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-cyan-500">About</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-cyan-500">Contact</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-cyan-500">Blog</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-cyan-500">Articles</a></li>
-          </ul>
-          <div className="text-gray-400">
-            Design By - <a href="https://groundtutorial.com" className="hover:text-cyan-500">Mubashir Ali</a>
+    <footer className="text-gray-800 py-8 mt-8">
+      <div className="container mx-auto px-4 lg:px-0">
+        <div className="flex flex-col lg:flex-row items-center justify-between">
+          <div className="my-4 lg:my-0 text-center lg:text-left">
+            <h3 className="text-lg font-semibold mb-2 text-[#fff] ">Let&apos;s Connect</h3>
+            <p className="text-sm text-[#ebe1e1] mb-4"> I&apos;m actively exploring new opportunities, and my inbox eagerly awaits your message.</p>
+            <ul className="flex flex-wrap space-x-4 justify-center lg:justify-start">
+              <li>
+                <a href="mailto:mubashirali1837@gmail.com" className="flex items-center hover:text-[#1ff]">
+                  <FaEnvelope className="mr-2 text-[#fff]" />
+                </a>
+              </li>
+              <li>
+                <a href="http://Wa.me/+923275882664" className="flex items-center hover:text-[#1ff]">
+                  <FaWhatsapp className="mr-2 text-[#fff]" /> 
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/mubashiraliyaar" className="flex items-center hover:text-[#1ff]">
+                  <FaTwitter className="mr-2 text-[#fff]" /> 
+                </a>
+              </li>
+              <li>
+                <a href="https://join.skype.com/invite/tbUVmyPL6ySt" className="flex items-center hover:text-[#1ff]">
+                  <FaSkype className="mr-2 text-[#fff]" /> 
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@BismiAllah_coder" className="flex items-center hover:text-[#579b9b]">
+                  <FaYoutube className="mr-2 text-white" /> 
+                </a>
+              </li>
+              <li>
+                <a href="http://t.me/mubashir1837" className="flex items-center hover:text-[#579b9b]">
+                  <FaTelegram className="mr-2 text-white" /> 
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="flex items-center">
+            <img src={githubProfilePhotoUrl} alt="GitHub Profile" className="w-11 h-11 rounded-full lg:rounded-lg" />
           </div>
         </div>
       </div>  
