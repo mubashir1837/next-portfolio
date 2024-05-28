@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaSkype, FaTelegram, FaWhatsapp } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaSkype, FaWhatsapp, FaQuora } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -19,26 +19,26 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex space-x-4 justify-center lg:justify-start size-max-0px sm:max-w-xl">
-            <a href="mailto:mubashirali1837@gmail.com" className="text-white text-xl">
+            <a href="mailto:mubashirali1837@gmail.com" target='blank' className="text-white text-xl">
               <FaEnvelope />
             </a>
-            <a href="https://linkedin.com/in/mubashirali3" className="text-white text-xl">
+            <a href="https://linkedin.com/in/mubashirali3" target='blank' className="text-white text-xl">
               <FaLinkedin />
             </a>
-            <a href="https://github.com/mubashir1837" className="text-white text-xl">
+            <a href="https://github.com/mubashir1837" target='_blank' className="text-white text-xl">
               <FaGithub />
             </a>
-            <a href="https://instagram.com/mubashir_aliyaar_37/" className="text-white text-xl">
+            <a href="https://instagram.com/mubashir_aliyaar_37/" target='blank' className="text-white text-xl">
               <FaInstagram />
-            </a>
-            <a href="http://t.me/mubashir1837" className="text-white text-xl">
-              <FaTelegram />
             </a>
             <a href="https://join.skype.com/invite/tbUVmyPL6ySt" target='_blank' className="text-white text-xl">
               <FaSkype />
             </a>
             <a href="http://Wa.me/+923275882664" target='_blank' className="text-white text-xl">
               <FaWhatsapp />
+            </a>
+            <a href="https://www.quora.com/profile/Mubashir-Ali-762" target='_blank' className="text-white text-xl">
+              <FaQuora />
             </a>
           </div>
         </div>

@@ -17,7 +17,7 @@ const EducationSection = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1ff] to-[#fff]">Education</span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="education-item bg-[#27b4e3] p-6 rounded-lg shadow-md flex flex-col items-center">
+          <div className="education-item bg-purple-700  p-6 rounded-lg  flex flex-col items-center shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50   shadow-[#ffffff]">
             <div className="mb-4">
               <Image src="/images/yul.jpg" alt="Profile Image" width={100} height={100} className="rounded-full align-center" />
             </div>
@@ -27,7 +27,7 @@ const EducationSection = () => {
             <p className="text-[#fff]">2019-2021</p>
           </div>
 
-          <div className="education-item bg-[#27b4e3] p-6 rounded-lg shadow-md flex flex-col items-center">
+          <div className="education-item border-white border-6 bg-purple-700  p-6 rounded-lg  flex flex-col items-center shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50   shadow-[#ffffff]">
             <div className="mb-4">
               <Image src="/images/uswa2.png" alt="Profile Image" width={100} height={100} className="rounded-full align-center" />
             </div>
@@ -37,7 +37,7 @@ const EducationSection = () => {
             <p className="text-[#fff]">2021-2023</p>
           </div>
 
-          <div className="education-item bg-[#27b4e3] p-6 rounded-lg shadow-md flex flex-col items-center">
+          <div className="education-item bg-purple-700  p-6 rounded-lg  flex flex-col items-center shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50   shadow-[#ffffff]">
             <div className="mb-4">
               <Image src="/images/uswa2.png" alt="Profile Image" width={100} height={100} className="rounded-full align-center" />
             </div>

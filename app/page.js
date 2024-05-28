@@ -10,6 +10,7 @@ import ProjectSection from "./components/ProjectSection";
 import Achievement from "./components/Achievement";
 import Footer from "./components/Footer";
 
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-gradient-to-r from-purple-600 via-blue-500 to-purple-600">

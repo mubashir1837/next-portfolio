@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { FaLink } from "react-icons/fa";
 import SEO from '../components/SEO';
 
 const ProjectSection = () => {
@@ -17,91 +18,91 @@ const ProjectSection = () => {
           </h2>
           <br />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="project-box bg-[#27b4e3] p-6 rounded-lg shadow-md flex flex-col">
+            <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50  text-center shadow-[#ffffff]">
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Ecommerce Website</h3>
               <p className="text-[#fff] mb-4">
                 This an ecommerce website designed by using HTML, CSS and JavaScript.
               </p>
               <a
                 href="https://ecommerce-m.vercel.app/"
-                className="text-blue-500 hover:underline mt-auto"
+                className="mt-auto flex justify-center"
               >
-                <button className="bg-[#fff] hover:bg-[#d4dada] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
-                  View project
+                <button className="bg-[#25a4ad] hover:bg-[#34aaaa] text-[#fff] hover:text-[#f3f1f1] font-bold py-2 px-4 rounded flex items-center justify-center">
+                  <FaLink className="mr-2" /> View project
                 </button>
               </a>
             </div>
 
-            <div className="project-box bg-[#27b4e3] p-6 rounded-lg shadow-md flex flex-col">
+            <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50  text-center shadow-[#ffffff]">
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Text Analyzer</h3>
               <p className="text-[#fff] mb-4">
                 This project is showing Text Analyzer website
               </p>
               <a
                 href="https://texts-analyzerr.vercel.app/"
-                className="text-blue-500 hover:underline mt-auto"
+                className="mt-auto flex justify-center"
               >
-                <button className="bg-[#fff] hover:bg-[#d0d4d4] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
-                  View project
+                <button className="bg-[#25a4ad] hover:bg-[#34aaaa] text-[#fff] hover:text-[#f3f1f1] font-bold py-2 px-4 rounded flex items-center justify-center">
+                  <FaLink className="mr-2" /> View project
                 </button>
               </a>
             </div>
 
-            <div className="project-box bg-[#27b4e3] p-6 rounded-lg shadow-md flex flex-col">
+            <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50  text-center shadow-[#ffffff]">
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Calculator</h3>
               <p className="text-[#fff] mb-4">
                 This project shows a calculator app designed with HTML, CSS and JavaScript only.
               </p>
               <a
                 href="https://calculator-j.vercel.app/"
-                className="text-blue-500 hover:underline mt-auto"
+                className="mt-auto flex justify-center"
               >
-                <button className="bg-[#fff] hover:bg-[#d3d6d6] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
-                  View project
+                <button className="bg-[#25a4ad] hover:bg-[#34aaaa] text-[#fff] hover:text-[#f3f1f1] font-bold py-2 px-4 rounded flex items-center justify-center">
+                  <FaLink className="mr-2" /> View project
                 </button>
               </a>
             </div>
 
-            <div className="project-box bg-[#27b4e3] p-6 rounded-lg shadow-md flex flex-col">
+            <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50  text-center shadow-[#ffffff]">
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Portfolio website</h3>
               <p className="text-[#fff] mb-4">
                 This is a Portfolio website designed with nextjs, it show cases your skills, eduactions, projects etc.
               </p>
               <a
                 href="https://awesome-portfolio2024.vercel.app/"
-                className="text-blue-500 hover:underline mt-auto"
+                className="mt-auto flex justify-center"
               >
-                <button className="bg-[#fff] hover:bg-[#cfd3d3] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
-                  View project
+                <button className="bg-[#25a4ad] hover:bg-[#34aaaa] text-[#fff] hover:text-[#f3f1f1] font-bold py-2 px-4 rounded flex items-center justify-center">
+                  <FaLink className="mr-2" /> View project
                 </button>
               </a>
             </div>
-            <div className="project-box bg-[#27b4e3] p-6 rounded-lg shadow-md flex flex-col">
+            <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50  text-center shadow-[#ffffff]">
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Portfolio website</h3>
               <p className="text-[#fff] mb-4">
                 This is a Portfolio website designed with bootstrap, it show cases your skills, eduactions, projects etc.
               </p>
               <a
                 href="https://mubashir-ali.vercel.app/"
-                className="text-blue-500 hover:underline mt-auto"
+                className="mt-auto flex justify-center"
               >
-                <button className="bg-[#fff] hover:bg-[#ced1d1] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
-                  View project
+                <button className="bg-[#25a4ad] hover:bg-[#34aaaa] text-[#fff] hover:text-[#f3f1f1] font-bold py-2 px-4 rounded flex items-center justify-center">
+                  <FaLink className="mr-2" /> View project
                 </button>
               </a>
             </div>
 
-            <div className="project-box bg-[#27b4e3] p-6 rounded-lg shadow-md flex flex-col">
+            <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50  text-center shadow-[#ffffff]">
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Food ordering website</h3>
               <p className="text-[#fff] mb-4">
                 This project is about food ordering website.
               </p>
               <a
                 href="https://foodweb-five.vercel.app/"
-                className="text-blue-500 hover:underline mt-auto"
+                className="mt-auto flex justify-center"
               >
-                <button className="bg-[#f7f5f5] hover:bg-[#dee0e0] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded align-center">
-                  View project
+                <button className="bg-[#25a4ad] hover:bg-[#34aaaa] text-[#fff] hover:text-[#f3f1f1] font-bold py-2 px-4 rounded flex items-center justify-center">
+                  <FaLink className="mr-2" /> View project
                 </button>
               </a>
             </div>
@@ -112,4 +113,4 @@ const ProjectSection = () => {
   );
 };
 
-export default ProjectSection;
+export default ProjectSection
