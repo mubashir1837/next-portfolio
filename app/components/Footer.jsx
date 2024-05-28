@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaFacebook, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -20,29 +20,29 @@ const Footer = () => {
             <FaMapMarkerAlt className="text-white text-2xl mr-2" />
             <span className="text-white text-lg">Islamabad, Pakistan</span>
           </div>
-          <div className="flex space-x-4 justify-center lg:justify-start size-max-0px">
-            <a href="mailto:your-email@example.com" className="text-white text-3xl">
-              <FaWhatsapp />
+          <div className="flex space-x-4 justify-center lg:justify-start size-max-0px sm:max-w-xl">
+            <a href="mailto:mubashirali1837@gmail.com" className="text-white text-2xl">
+              <FaEnvelope />
             </a>
-            <a href="https://www.linkedin.com/in/your-linkedin-profile" className="text-white text-3xl">
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" className="text-white text-2xl">
               <FaLinkedin />
             </a>
-            <a href="https://github.com/your-github-username" className="text-white text-3xl">
+            <a href="https://github.com/your-github-username" className="text-white text-2xl">
               <FaGithub />
             </a>
-            <a href="https://www.instagram.com/your-instagram-profile" className="text-white text-3xl">
+            <a href="https://www.instagram.com/your-instagram-profile" className="text-white text-2xl">
               <FaInstagram />
             </a>
-            <a href="https://www.facebook.com/your-facebook-profile" className="text-white text-3xl">
+            <a href="https://www.facebook.com/your-facebook-profile" className="text-white text-2xl">
               <FaFacebook />
             </a>
-            <a href="https://twitter.com/your-twitter-profile" className="text-white text-3xl">
+            <a href="https://twitter.com/your-twitter-profile" className="text-white text-2xl">
               <FaTwitter />
             </a>
           </div>
         </div>
         <div className="mt-12 lg:mt-0">
-          <img src="/images/pro.jpg" alt="GitHub Profile Photo" className="w-200 h-200 rounded-full mr-6 sm:mx-sm" />
+          <img src="/images/pro.jpg" alt="GitHub Profile Photo" className="w-200 h-200 rounded-full mr-6 " />
         </div>
       </div>
     </section>
