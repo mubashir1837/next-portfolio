@@ -1,54 +1,49 @@
-import { FaTelegram, FaTwitter, FaEnvelope, FaSkype, FaWhatsapp, FaYoutube } from 'react-icons/fa';
-
-const githubProfilePhotoUrl = "https://avatars.githubusercontent.com/u/163585695?v=4";
+import React from 'react';
+import { FaMapMarkerAlt, FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer className="text-gray-800 py-8 mt-8">
-      <div className="container mx-auto px-4 lg:px-0">
-        <div className="flex flex-col lg:flex-row items-center justify-between">
-          <div className="my-4 lg:my-0 text-center lg:text-left">
-            <h3 className="text-lg font-semibold mb-2 text-[#fff] ">Let&apos;s Connect</h3>
-            <p className="text-sm text-[#ebe1e1] mb-4"> I&apos;m actively exploring new opportunities, and my inbox eagerly awaits your message.</p>
-            <ul className="flex flex-wrap space-x-4 justify-center lg:justify-start">
-              <li>
-                <a href="mailto:mubashirali1837@gmail.com" className="flex items-center hover:text-[#1ff]">
-                  <FaEnvelope className="mr-2 text-[#fff]" />
-                </a>
-              </li>
-              <li>
-                <a href="http://Wa.me/+923275882664" className="flex items-center hover:text-[#1ff]">
-                  <FaWhatsapp className="mr-2 text-[#fff]" /> 
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/mubashiraliyaar" className="flex items-center hover:text-[#1ff]">
-                  <FaTwitter className="mr-2 text-[#fff]" /> 
-                </a>
-              </li>
-              <li>
-                <a href="https://join.skype.com/invite/tbUVmyPL6ySt" className="flex items-center hover:text-[#1ff]">
-                  <FaSkype className="mr-2 text-[#fff]" /> 
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/@BismiAllah_coder" className="flex items-center hover:text-[#579b9b]">
-                  <FaYoutube className="mr-2 text-white" /> 
-                </a>
-              </li>
-              <li>
-                <a href="http://t.me/mubashir1837" className="flex items-center hover:text-[#579b9b]">
-                  <FaTelegram className="mr-2 text-white" /> 
-                </a>
-              </li>
-            </ul>
+    <section className="min-h-screen flex flex-col items-center justify-center px-6 py-24">
+      <div className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-center w-full max-w-7xl mx-auto">
+        <div className="text-center lg:text-left">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-teal-200 to-teal-100">
+            Get in Touch!
+          </h1>
+          <p className="text-lg sm:text-xl lg:text-lg text-white text-center lg:text-left mb-6">
+            I am currently exploring exciting new opportunities and eagerly anticipate receiving thoughtful messages in my inbox. Whether you have inquiries, potential job opportunities, or simply wish to connect, rest assured, I will respond promptly and warmly!
+          </p>
+          <p lg="8" className="text-md sm:text-lg lg:text-md text-white text-center lg:text-left mb-12">
+            An enthusiastic undergraduate student, passionate about Bioinformatics, Biopython, Python, JavaScript, HTML, and CSS.
+          </p>
+          <div className="flex items-center justify-center lg:justify-start mb-8">
+            <FaMapMarkerAlt className="text-white text-2xl mr-2" />
+            <span className="text-white text-lg">Islamabad, Pakistan</span>
           </div>
-          <div className="flex items-center">
-            <img src={githubProfilePhotoUrl} alt="GitHub Profile" className="w-11 h-11 rounded-full lg:rounded-lg" />
+          <div className="flex space-x-4 justify-center lg:justify-start">
+            <a href="mailto:your-email@example.com" className="text-white text-3xl">
+              <FaEnvelope />
+            </a>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" className="text-white text-3xl">
+              <FaLinkedin />
+            </a>
+            <a href="https://github.com/your-github-username" className="text-white text-3xl">
+              <FaGithub />
+            </a>
+            <a href="https://www.instagram.com/your-instagram-profile" className="text-white text-3xl">
+              <FaInstagram />
+            </a>
+            <a href="https://www.facebook.com/your-facebook-profile" className="text-white text-3xl">
+              <FaFacebook />
+            </a>
+            <a href="https://twitter.com/your-twitter-profile" className="text-white text-3xl">
+              <FaTwitter />
+            </a>
           </div>
         </div>
-      </div>  
-    </footer>
+        
+      </div>
+    </section>
   );
 };
 
