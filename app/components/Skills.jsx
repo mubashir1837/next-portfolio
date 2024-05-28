@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import SEO from '../components/SEO';
+import { FaHandPeace, FaSmile, FaThumbsUp, FaTrophy } from 'react-icons/fa';
 
 const Skills = () => {
   return (
@@ -10,8 +11,8 @@ const Skills = () => {
         description="A list of my skills and technologies I'm proficient in."
         keywords="skills, technologies, proficiency Planner, Ahrefs, SEMrush,"
       />
-      <section className="min-h-screen px-4 py-24">
-        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#1ff] to-[#fff]">
+      <section className="min-h-screen px-4 py-24 bg-gradient-to-r from-[#010524] to-[#040c5c]">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#19e345] to-[#fff]">
           Skills
         </h1>
         <div className="container-fluid py-12">
@@ -19,7 +20,7 @@ const Skills = () => {
             <div className="flex flex-wrap -mx-4">
               <div className="w-full lg:w-1/12"></div>
               <div className="w-full lg:w-5/12 px-4">
-                <p className="text-lg sm:text-xl mb-8 text-left text-white">
+                <p className="text-white text-base sm:text-lg mb-6 lg:text-xl">
                   I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services, and online stores. I created many projects related to Bioinformatics by using deep learning and machine learning. Here are skills I&apos;ve acquired too.
                 </p>
               </div>
@@ -70,7 +71,7 @@ const Skills = () => {
               <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
                 <div className="text-center">
                   <span className="block mb-2">
-                    <i className="fa fa-hand-peace-o text-green-500"></i>
+                    <FaHandPeace className="text-4xl text-green-500 mx-auto" />
                   </span>
                   <h5 className="text-4xl text-white">3</h5>
                   <p className="text-gray-400">Total Experience</p>
@@ -79,7 +80,7 @@ const Skills = () => {
               <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
                 <div className="text-center">
                   <span className="block mb-2">
-                    <i className="fa fa-smile-o text-green-500"></i>
+                    <FaSmile className="text-4xl text-green-500 mx-auto" />
                   </span>
                   <h5 className="text-4xl text-white">300</h5>
                   <p className="text-gray-400">Happy Clients</p>
@@ -88,7 +89,7 @@ const Skills = () => {
               <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
                 <div className="text-center">
                   <span className="block mb-2">
-                    <i className="fa fa-thumbs-up text-green-500"></i>
+                    <FaThumbsUp className="text-4xl text-green-500 mx-auto" />
                   </span>
                   <h5 className="text-4xl text-white">100</h5>
                   <p className="text-gray-400">Project Complete</p>
@@ -97,7 +98,7 @@ const Skills = () => {
               <div className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
                 <div className="text-center">
                   <span className="block mb-2">
-                    <i className="fa fa-trophy text-green-500"></i>
+                    <FaTrophy className="text-4xl text-green-500 mx-auto" />
                   </span>
                   <h5 className="text-4xl text-white">50</h5>
                   <p className="text-gray-400">Award Win</p>
