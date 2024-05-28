@@ -19,7 +19,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex space-x-4 justify-center lg:justify-start size-max-0px sm:max-w-xl">
-            <a href="emailto:mubashirali1837@gmail.com" className="text-white text-xl">
+            <a href="mailto:mubashirali1837@gmail.com" className="text-white text-xl">
               <FaEnvelope />
             </a>
             <a href="https://linkedin.com/in/mubashirali3" className="text-white text-xl">
@@ -31,7 +31,7 @@ const Footer = () => {
             <a href="https://instagram.com/mubashir_aliyaar_37/" className="text-white text-xl">
               <FaInstagram />
             </a>
-            <a href="https://facebook.com/mubashiraliyaar" className="text-white text-xl">
+            <a href="http://t.me/mubashir1837" className="text-white text-xl">
               <FaTelegram />
             </a>
             <a href="https://join.skype.com/invite/tbUVmyPL6ySt" target='_blank' className="text-white text-xl">
