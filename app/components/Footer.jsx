@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-6 py-24">
       <div className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-center w-full max-w-7xl mx-auto">
-        <div className="text-center lg:text-left">
+        <div className="text-center lg:text-left lg:max-w-2xl">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-teal-200 to-teal-100">
             Get in Touch!
           </h1>
-          <p className="text-lg sm:text-xl lg:text-lg text-white text-center lg:text-left mb-6">
+          <p className="text-lg sm:text-xl lg:text-lg text-white text-center lg:text-left mb-6 lg:max-w-lg">
             I am currently exploring exciting new opportunities and eagerly anticipate receiving thoughtful messages in my inbox. Whether you have inquiries, potential job opportunities, or simply wish to connect, rest assured, I will respond promptly and warmly!
           </p>
-          <p lg="8" className="text-md sm:text-lg lg:text-md text-white text-center lg:text-left mb-12">
+          <p className="text-md sm:text-lg lg:text-md text-white text-center lg:text-left mb-12 lg:max-w-lg">
             An enthusiastic undergraduate student, passionate about Bioinformatics, Biopython, Python, JavaScript, HTML, and CSS.
           </p>
           <div className="flex items-center justify-center lg:justify-start mb-8">
@@ -41,7 +41,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        
+        <div className="mt-12 lg:mt-0">
+          <img src="/images/pro.jpg" alt="GitHub Profile Photo" className="w-40 h-40 rounded-full mx-auto lg:mx-0" />
+        </div>
       </div>
     </section>
   );
