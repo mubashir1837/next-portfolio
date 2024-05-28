@@ -11,7 +11,7 @@ const Skills = () => {
         keywords="skills, technologies, proficiency Planner, Ahrefs, SEMrush,"
       />
       <section className="min-h-screen px-4 py-24">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#1fff] to-white">
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#1ff] to-[#fff]">
           Skills
         </h1>
         <div className="container-fluid py-12">
