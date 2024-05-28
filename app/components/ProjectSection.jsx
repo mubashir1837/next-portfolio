@@ -26,7 +26,7 @@ const ProjectSection = () => {
                 href="https://ecommerce-m.vercel.app/"
                 className="text-blue-500 hover:underline mt-auto"
               >
-                <button className="bg-[#fff] hover:bg-[#1ff] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
+                <button className="bg-[#fff] hover:bg-[#d4dada] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
                   View project
                 </button>
               </a>
@@ -41,7 +41,7 @@ const ProjectSection = () => {
                 href="https://texts-analyzerr.vercel.app/"
                 className="text-blue-500 hover:underline mt-auto"
               >
-                <button className="bg-[#fff] hover:bg-[#1ff] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
+                <button className="bg-[#fff] hover:bg-[#d0d4d4] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
                   View project
                 </button>
               </a>
@@ -56,7 +56,7 @@ const ProjectSection = () => {
                 href="https://calculator-j.vercel.app/"
                 className="text-blue-500 hover:underline mt-auto"
               >
-                <button className="bg-[#fff] hover:bg-[#1ff] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
+                <button className="bg-[#fff] hover:bg-[#d3d6d6] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
                   View project
                 </button>
               </a>
@@ -71,7 +71,7 @@ const ProjectSection = () => {
                 href="https://awesome-portfolio2024.vercel.app/"
                 className="text-blue-500 hover:underline mt-auto"
               >
-                <button className="bg-[#fff] hover:bg-[#1ff] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
+                <button className="bg-[#fff] hover:bg-[#cfd3d3] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
                   View project
                 </button>
               </a>
@@ -85,7 +85,7 @@ const ProjectSection = () => {
                 href="https://mubashir-ali.vercel.app/"
                 className="text-blue-500 hover:underline mt-auto"
               >
-                <button className="bg-[#fff] hover:bg-[#1ff] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
+                <button className="bg-[#fff] hover:bg-[#ced1d1] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded">
                   View project
                 </button>
               </a>
@@ -100,7 +100,7 @@ const ProjectSection = () => {
                 href="https://foodweb-five.vercel.app/"
                 className="text-blue-500 hover:underline mt-auto"
               >
-                <button className="bg-[#f7f5f5] hover:bg-[#1ff] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded align-center">
+                <button className="bg-[#f7f5f5] hover:bg-[#dee0e0] text-[#94d1d1] hover:text-[#fff] font-bold py-2 px-4 rounded align-center">
                   View project
                 </button>
               </a>

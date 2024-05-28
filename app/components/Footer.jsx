@@ -31,13 +31,13 @@ const Footer = () => {
             <a href="https://instagram.com/mubashir_aliyaar_37/" className="text-white text-xl">
               <FaInstagram />
             </a>
-            <a href="https://www.facebook.com/your-facebook-profile" className="text-white text-xl">
+            <a href="https://facebook.com/mubashiraliyaar" className="text-white text-xl">
               <FaTelegram />
             </a>
-            <a href="https://skype.com/your-twitter-profile" target='_blank' className="text-white text-xl">
+            <a href="https://join.skype.com/invite/tbUVmyPL6ySt" target='_blank' className="text-white text-xl">
               <FaSkype />
             </a>
-            <a href="https://skype.com/your-twitter-profile" target='_blank' className="text-white text-xl">
+            <a href="http://Wa.me/+923275882664" target='_blank' className="text-white text-xl">
               <FaWhatsapp />
             </a>
           </div>
