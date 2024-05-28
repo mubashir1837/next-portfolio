@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import EducationSection from "./components/EducationSection";
 import ProjectSection from "./components/ProjectSection";
+import Achievement from "./components/Achievement";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         <Skills />
         <EducationSection />
         <ProjectSection />
+        <Achievement/>
         <Footer />
       </div>
     </main>
