@@ -11,7 +11,7 @@ const Skills = () => {
         keywords="skills, technologies, proficiency Planner, Ahrefs, SEMrush,"
       />
       <section className="min-h-screen px-4 py-24">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#19e345] to-[#fff]">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#1fff] to-white">
           Skills
         </h1>
         <div className="container-fluid py-12">
@@ -19,7 +19,7 @@ const Skills = () => {
             <div className="flex flex-wrap -mx-4">
               <div className="w-full lg:w-1/12"></div>
               <div className="w-full lg:w-5/12 px-4">
-                <p className="text-lg sm:text-xl mb-8">
+                <p className="text-lg sm:text-xl mb-8 text-center text-white">
                   I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services, and online stores. I created many projects related to Bioinformatics by using deep learning and machine learning. Here are skills I&apos;ve acquired too.
                 </p>
               </div>
