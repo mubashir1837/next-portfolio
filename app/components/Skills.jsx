@@ -74,10 +74,10 @@ const Skills = () => {
           <div className="mb-4">
             <div className="flex justify-between items-center">
               <p className="text-lg text-white">CSS</p>
-              <span className="text-lg text-white">89%</span>
+              <span className="text-lg text-white">90%</span>
             </div>
             <div className="w-full bg-[#dfdbdb] rounded-full h-2.5">
-              <div className="bg-[#1fff] h-2.5 rounded-full" style={{ width: '89%' }}></div>
+              <div className="bg-[#1fff] h-2.5 rounded-full" style={{ width: '90%' }}></div>
             </div>
           </div>
         </div>
