@@ -17,7 +17,6 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
-    "react-reveal": "^1.2.2",
     "react-spring": "^9.7.3",
     "react-type-animation": "^3.2.0",
     "react-typewriter-effect": "^1.1.0"
