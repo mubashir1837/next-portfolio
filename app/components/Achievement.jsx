@@ -4,7 +4,7 @@ import { FaHandPeace, FaSmile, FaThumbsUp, FaTrophy } from 'react-icons/fa';
 const Achievement = () => {
   return (
     <>
-      <main className="min-h-screen px-4 py-24 mt-[100%]">
+      <main className="min-h-screen px-4 py-24 mt-[80%]">
         <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#1ff] to-[#fff]">
           Achievements
         </h1>

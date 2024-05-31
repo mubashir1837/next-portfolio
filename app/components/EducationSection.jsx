@@ -2,6 +2,8 @@
 import React from 'react';
 import Image from "next/image";
 import SEO from '../components/SEO';
+import Fade from "react-reveal/Fade";
+
 
 const EducationSection = () => {
   return (
@@ -11,6 +13,7 @@ const EducationSection = () => {
         description="My educational background and qualifications."
         keywords="education, qualifications, background, stanford, coursera, IBM, edureka, Udemy"
       />
+      <Fade bottom duration={2000}>
       <section className="education py-10 sm:py-16 lg:py-24 text-center">
         <div className="container mx-auto">
           <h2 className="mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
@@ -55,6 +58,7 @@ const EducationSection = () => {
           </div>
         </div>
       </section>
+      </Fade>
     </>
   );
 };

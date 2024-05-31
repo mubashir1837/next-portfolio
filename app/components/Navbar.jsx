@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-[#1d1e50] p-4">
       <div className="flex justify-between items-center">
         <div className="text-[#fff] font-bold">
-          <Link href="/">𝕄𝕌𝔹𝔸𝕊ℍ𝕀ℝ 𝔸𝕃𝕀</Link>
+          <Link href="/"></Link>
         </div>
         <div className="flex space-x-4 text-white">
           <a href="https://github.com/mubashir1837">

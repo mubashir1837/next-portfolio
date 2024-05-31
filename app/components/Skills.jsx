@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import SEO from '../components/SEO';
+import Fade from "react-reveal/Fade";
 
 const Skills = () => {
   return (
@@ -10,7 +11,8 @@ const Skills = () => {
         description="A list of my skills and technologies I'm proficient in."
         keywords="skills, technologies, proficiency Planner, Ahrefs, SEMrush,"
       />
-      <section className="min-h-screen px-4 py-24 mt-[100%]">
+      <Fade bottom duration={5000}>
+      <section className="min-h-screen px-4 py-24 mt-[80%]">
         <div className="text-center">
           <h2 className="mb-9 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1ff] to-[#fff] text-center">Skills</span>
@@ -82,6 +84,7 @@ const Skills = () => {
           </div>
         </div>
       </section>
+      </Fade>
     </>
   );
 };
