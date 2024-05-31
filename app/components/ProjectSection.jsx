@@ -23,10 +23,10 @@ const ProjectSection = () => {
             <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50  text-center shadow-[#ffffff]">
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Ecommerce Website</h3>
               <p className="text-[#fff] mb-4">
-                This an ecommerce website designed by using HTML, CSS and JavaScript.
+                This an ecommerce website designed by using HTML, and tailwind CSS .
               </p>
               <a
-                href="https://ecommerce-m.vercel.app/"
+                href="https://shopppings.vercel.app/"
                 className="mt-auto flex justify-center"
               >
                 <button className="bg-[#25a4ad] hover:bg-[#34aaaa] text-[#fff] hover:text-[#f3f1f1] font-bold py-2 px-4 rounded flex items-center justify-center">
