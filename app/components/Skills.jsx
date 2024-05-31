@@ -12,7 +12,7 @@ const Skills = () => {
         keywords="skills, technologies, proficiency Planner, Ahrefs, SEMrush,"
       />
     
-      <section className="min-h-screen px-4 py-24 mt-[80%]">
+      <section className="min-h-screen px-4 py-24 mt-[90%]">
         <div className="text-center">
           <h2 className="mb-9 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1ff] to-[#fff] text-center">Skills</span>

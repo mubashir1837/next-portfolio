@@ -15,7 +15,7 @@ const AboutMe = () => {
       />
       
       <motion.main
-      className="min-h-screen px-4 py-24 mt-[80%]"
+      className="min-h-screen px-4 py-24 mt-[90%]"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 2 }}
