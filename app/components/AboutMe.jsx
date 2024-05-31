@@ -16,7 +16,7 @@ const AboutMe = () => {
           <h2 className="mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1ff] to-[#fff]">About Me</span>
           </h2>
-          <p className="text-lg sm:text-xl mb-8">
+          <p className="text-lg sm:text-xl mb-8 ">
             As an undergraduate computational biologist and dedicated web application 
             developer from Pakistan, I merge my passion for programming languages with 
             cutting-edge biological research. Crafting elegant code, I weave intricate 
