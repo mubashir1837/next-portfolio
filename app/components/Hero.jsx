@@ -38,12 +38,12 @@ const Hero = () => {
           </p>
           <div className="mt-4">
             <Link href="http://Wa.me/+923275882664">
-              <button className="bg-[#fff] hover:bg-[#92b8d4] text-[#27b4e3] font-bold py-2 px-4 mr-4 rounded">
+              <button className="bg-[#fff]  hover:bg-[#1f90b6] hover:text-white border border-[#ffffff] text-[#27b4e3] font-bold py-3 px-6 mr-4 rounded-full">
                 Hire Me
               </button>
             </Link>
             <Link href="https://github.com/mubashir1837/Curriculum-Vitae/blob/main/Curriculum%20Vitae.pdf">
-              <button className="bg-[#27b4e3] hover:bg-[#92b8d4] text-white font-bold py-2 px-4 rounded">
+              <button className="bg-[#1f90b6] hover:bg-[#fff] text-white hover:text-[#27b4e3] font-bold py-3 px-6 mt-2 rounded-full border border-[#ffff]">
                 Download CV
               </button>
             </Link>
