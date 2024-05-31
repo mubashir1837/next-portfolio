@@ -2,8 +2,8 @@
 import React from 'react';
 import Image from "next/image";
 import SEO from '../components/SEO';
-import { motion } from "framer-motion";
-import Fade from "react-reveal/Fade";
+import { motion } from 'framer-motion';
+
 
 const AboutMe = () => {
   return (
@@ -13,8 +13,13 @@ const AboutMe = () => {
         description="Learn more about me, my background, and my interests."
         keywords="about me, background, biography, beautiful about me, portfolio, awesome_portfolio, portfolio vercel"
       />
-      <Fade bottom duration={2000}>
-       <motion.div animate={{ opacity: 1 }} initial={{ opacity: 0 }}>
+      
+      <motion.main
+      className="min-h-screen px-4 py-24 mt-[80%]"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 2 }}
+    >
       <section className="about-me flex flex-col sm:flex-row items-center justify-center text-center sm:text-left py-24 mt-[80%]"> 
         <div className="text-white max-w-lg">
           <h2 className="mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
@@ -32,8 +37,8 @@ const AboutMe = () => {
           <Image src="/images/pro.jpg" alt="Profile Image" width={250} height={250} className="rounded-full border-4 border-white" />
         </div>
       </section>
-      </motion.div>
-      </Fade>
+      </motion.main>
+     
     </>
   );
 };

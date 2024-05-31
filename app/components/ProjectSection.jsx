@@ -2,7 +2,7 @@
 import React from "react";
 import { FaLink } from "react-icons/fa";
 import SEO from '../components/SEO';
-import Fade from "react-reveal/Fade";
+
 
 const ProjectSection = () => {
   return (
@@ -12,7 +12,7 @@ const ProjectSection = () => {
         description="Showcasing my projects and work."
         keywords="projects, portfolio, work"
       />
-       <Fade bottom duration={2000}>
+    
       <section className="projects py-24 sm:py-16 lg:py-24 text-center mt-[70%]">
         <div className="container mx-auto">
           <h2 className="mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
@@ -111,7 +111,7 @@ const ProjectSection = () => {
           </div>
         </div>
       </section>
-      </Fade>
+     
     </>
   );
 };
