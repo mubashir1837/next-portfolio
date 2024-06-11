@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from "next/image";
 import SEO from '../components/SEO';
-import { motion } from 'framer-motion';
+
 
 
 const AboutMe = () => {
@@ -14,12 +14,7 @@ const AboutMe = () => {
         keywords="about me, background, biography, beautiful about me, portfolio, awesome_portfolio, portfolio vercel"
       />
       
-      <motion.main
-      className="min-h-screen px-4 py-24 mt-[90%]"
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 2 }}
-    >
+      
       <section className="about-me flex flex-col sm:flex-row items-center justify-center text-center sm:text-left py-24 mt-[80%]"> 
         <div className="text-white max-w-lg">
           <h2 className="mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
@@ -37,7 +32,7 @@ const AboutMe = () => {
           <Image src="/images/pro.jpg" alt="Profile Image" width={250} height={250} className="rounded-full border-4 border-white" />
         </div>
       </section>
-      </motion.main>
+    
      
     </>
   );
