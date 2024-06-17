@@ -27,6 +27,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
        <head>
         <link rel="icon" href="./images/pro-.jpg" sizes="any" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5931838593236969"
+     crossorigin="anonymous"></script>
+     <title>Mubashir Luqman</title>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
