@@ -19,6 +19,7 @@ export const metadata = {
     "Mubashir Ali website",
     "Awesome Portfolio",
     "website",
+    "https://codewithbismillah.vercel.app",
   ]
 };
 

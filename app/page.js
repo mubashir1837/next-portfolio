@@ -1,4 +1,5 @@
 // pages/index.js (assuming your file is named index.js)
+"use client"
 import React from "react";
 import SEO from "./components/SEO";
 import Hero from "./components/Hero";
@@ -9,6 +10,8 @@ import EducationSection from "./components/EducationSection";
 import ProjectSection from "./components/ProjectSection";
 import Achievement from "./components/Achievement";
 import Footer from "./components/Footer";
+import FadeIn from 'react-fade-in';
+
 
 
 export default function Home() {
@@ -20,6 +23,7 @@ export default function Home() {
         keywords="home, personal, portfolio, Mubashir, Baltistan,  nextjs_portfolio"
       />
       <Navbar />
+      <FadeIn>
       <div className="container mt-20 mx-auto px-12 py-0">
         <Hero />
         <br />
@@ -30,7 +34,9 @@ export default function Home() {
         <ProjectSection />
         <Achievement/>
         <Footer />
+        
       </div>
+      </FadeIn>
     </main>
   );
 }

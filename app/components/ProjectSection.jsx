@@ -20,6 +20,20 @@ const ProjectSection = () => {
           </h2>
           <br />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50  text-center shadow-[#ffffff]">
+              <h3 className="text-xl font-bold mb-4 text-[#fff]">CodeWithBismilah</h3>
+              <p className="text-[#fff] mb-4">
+                This is <b>CodeWithBimsillah</b> website here we offer free coding materials.
+              </p>
+              <a
+                href="https://codewithbismillah.vercel.app/"
+                className="mt-auto flex justify-center"
+              >
+                <button className="bg-[#25a4ad] hover:bg-[#34aaaa] text-[#fff] hover:text-[#f3f1f1] font-bold py-2 px-4 rounded flex items-center justify-center">
+                  <FaLink className="mr-2" /> View project
+                </button>
+              </a>
+            </div>
             <div className="project-box bg-purple-700  p-6 rounded-lg  flex flex-col shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50  text-center shadow-[#ffffff]">
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Ecommerce Website</h3>
               <p className="text-[#fff] mb-4">

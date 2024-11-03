@@ -21,11 +21,11 @@ const Hero = () => {
               sequence={[
                 'Mubashir Ali',
                 1000,
-                'Programmer',
+                'Bioinformatician',
                 1000,
                 'Web developer',
                 1000,
-                'Graphic Designer',
+                'Machine Learning Enthusiast',
                 1000
               ]}
               wrapper="span"
@@ -33,7 +33,7 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-white text-base sm:text-lg mb-9 lg:text-xl max-w-lg mx-auto  ">
+          <p className="text-white text-base sm:text-lg mb-9 lg:text-lg max-w-lg mx-auto  ">
             A proficient programmer excels in web development, driven by a passion for crafting inventive solutions that push boundaries and inspire progress.
           </p>
           <div className="mt-4">
