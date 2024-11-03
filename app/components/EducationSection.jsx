@@ -47,7 +47,7 @@ const EducationSection = () => {
             <div className="education-item bg-purple-700 p-6 rounded-lg flex flex-col items-center shadow-lg hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-opacity-50 shadow-[#ffffff]">
               <div className="mb-4">
                 <div className="relative" style={{ width: '100px', height: '100px' }}>
-                  <Image src="/images/uswa2.png" alt="Profile Image" fill className="rounded-full object-cover" />
+                  <Image src="/images/qau.jpg" alt="Profile Image" fill className="rounded-full object-cover" />
                 </div>
               </div>
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Bachelor</h3>
