@@ -51,9 +51,9 @@ const EducationSection = () => {
                 </div>
               </div>
               <h3 className="text-xl font-bold mb-4 text-[#fff]">Bachelor</h3>
-              <p className="text-[#fff] mb-2">University ...</p>
-              <p className="text-[#fff] mb-4">Field of Study</p>
-              <p className="text-[#fff]">Year of Graduation</p>
+              <p className="text-[#fff] mb-2">Quaid-i-Azam University Islamabad Pakistan</p>
+              <p className="text-[#fff] mb-4">Bioinformatics</p>
+              <p className="text-[#fff]">2024 -2028</p>
             </div>
           </div>
         </div>

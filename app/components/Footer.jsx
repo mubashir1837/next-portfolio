@@ -19,7 +19,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex space-x-4 justify-center lg:justify-start size-max-0px sm:max-w-xl">
-            <a href="mailto:mubashirali1837@gmail.com" target='_blank' className="text-white text-xl">
+            <a href="https://mailto:mubashirali1837@gmail.com" target='_blank' className="text-white text-xl">
               <FaEnvelope />
             </a>
             <a href="https://linkedin.com/in/mubashirali3" target='_blank' className="text-white text-xl">

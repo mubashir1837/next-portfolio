@@ -21,7 +21,7 @@ const Navbar = () => {
           <a href="https://instagram.com/mubashir_aliyaar_37/">
             <FaInstagram />
           </a>
-          <a href="https://www.youtube.com/@BismiAllah_coder">
+          <a href="https://www.youtube.com/@CodeWithBismillah">
             <FaYoutube/>
           </a>
         </div>
