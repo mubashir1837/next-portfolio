@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-gradient-to-r from-purple-600 via-blue-500 to-purple-600">
       <SEO
-        title="Awesome Portfolio Website 2024"
+        title="Mubashir Ali Portfolio Website"
         description="Welcome to my personal portfolio website"
         keywords="home, personal, portfolio, Mubashir, Baltistan,  nextjs_portfolio"
       />
