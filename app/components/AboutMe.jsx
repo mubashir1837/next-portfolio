@@ -2,12 +2,15 @@
 import React from 'react';
 import Image from "next/image";
 import SEO from '../components/SEO';
+import FadeIn from 'react-fade-in';
+
 
 
 
 const AboutMe = () => {
   return (
     <>
+    <FadeIn>
       <SEO
         title="About Mubashir Ali"
         description="Learn more about me, my background, and my interests."
@@ -32,7 +35,7 @@ const AboutMe = () => {
           <Image src="/images/pro.jpg" alt="Profile Image" width={250} height={250} className="rounded-full border-4 border-white" />
         </div>
       </section>
-    
+      </FadeIn>
      
     </>
   );

@@ -1,9 +1,12 @@
 import React from 'react';
 import { FaHandPeace, FaSmile, FaThumbsUp, FaTrophy } from 'react-icons/fa';
+import FadeIn from 'react-fade-in';
+
 
 const Achievement = () => {
   return (
     <>
+    <FadeIn>
       <main className="min-h-screen px-4 py-24 mt-[80%]">
         <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold mb-6 text-transparent bg-clip-text text-center bg-gradient-to-r from-[#1ff] to-[#fff]">
           Achievements
@@ -43,6 +46,7 @@ const Achievement = () => {
           </div>
         </div>
       </main>
+      </FadeIn>
     </>
   );
 };
